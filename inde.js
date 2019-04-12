@@ -18,4 +18,10 @@ app.get ('/', function(request, response){
 
 //Todo hasta aqui tiene que estar en todos los servidores
 
+app.post('/login', function(request, response){ //PAra crear información
+    console.log('El huevo');
+    response.send('el huevo 2');
+}); 
+
+
 app.listen(3000);
